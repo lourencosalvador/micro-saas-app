@@ -5,7 +5,7 @@ import {
   DashboardPageHeaderNav,
   DashboardPageHeaderTitle,
   DashboardPageMain,
-} from "../components/dashboard/page";
+} from "../../components/dashboard/page";
 
 
 export default async function Page() {
@@ -13,10 +13,10 @@ export default async function Page() {
   return (
     <DashboardPage>
       <DashboardPageHeader>
-        <DashboardPageHeaderTitle>Tarefas</DashboardPageHeaderTitle>
+        <DashboardPageHeaderTitle>Settings</DashboardPageHeaderTitle>
       </DashboardPageHeader>
       <DashboardPageMain>
-        <h1>Tarefas</h1>
+        <h1>Setings</h1>
       </DashboardPageMain>
     </DashboardPage>
   )
