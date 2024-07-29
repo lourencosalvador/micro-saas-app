@@ -5,7 +5,7 @@ import {
   DashboardPageHeaderNav,
   DashboardPageHeaderTitle,
   DashboardPageMain,
-} from "../../components/dashboard/page";
+} from "../../components/dashboard/page-component";
 
 
 export default async function Page() {
